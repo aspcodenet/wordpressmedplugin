@@ -1,0 +1,474 @@
+
+    /*
+    ===========================
+        Background Animation
+    ===========================
+    */
+        /* boxed layout */
+        .background-animation--enabled.boxed--layout .widget-area .widget,
+        .background-animation--enabled.boxed--layout .widget-area #widget_block,
+        .background-animation--enabled.boxed--layout .category-collection-wrap,
+        .background-animation--enabled.boxed--layout .video-playlist-wrap,
+        .background-animation--enabled.boxed--layout .site-header .bb-bldr--normal .bb-bldr-row,
+        .background-animation--enabled.boxed--layout .site-footer {
+            position: relative;
+        }
+
+        .background-animation--enabled.boxed--layout .site-main,
+        .background-animation--enabled.boxed--layout .widget-area .widget,
+        .background-animation--enabled.boxed--layout .widget-area #widget_block,
+        .background-animation--enabled.boxed--layout .category-collection-wrap,
+        .background-animation--enabled.boxed--layout .carousel-wrap,
+        .background-animation--enabled.boxed--layout .video-playlist-wrap,
+        .background-animation--enabled.boxed--layout .site-footer {
+            z-index: 2;
+        }
+        
+        .background-animation--enabled.boxed--layout .site-header .bb-bldr--normal .bb-bldr-row {
+            z-index: 3;
+        }
+
+        .background-animation--one .blogzee-background-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            animation: animateBg 50s linear infinite;
+        }
+
+        @keyframes animateBg {
+            0%,100% {
+                transform:scale(1);
+            }
+
+            50% {
+                transform:scale(1.2);
+            }
+        }
+
+        .background-animation--one .blogzee-background-animation span.item {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 4px;
+            height: 4px;
+            background: var(--blogzee-animation-object-color);
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
+            animation:  animate-star 3s linear infinite;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 300px;
+            height: 1px;
+            background: linear-gradient(90deg, var(--blogzee-animation-object-color), transparent);
+        }
+
+        @keyframes animate-star {
+            0% {
+                transform: rotate(315deg) translateX(0);
+                opacity: 1;
+            }
+
+            70% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: rotate(315deg) translateX(-1500px);
+                opacity: 0;
+            }
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(1) {
+            top: 0;
+            right: 0;
+            left:initial;
+            animation-delay: 0.5s;
+            animation-duration: 1s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(2) {
+            top: 0;
+            right: 80px;
+            left:initial;
+            animation-delay: 0.2s;
+            animation-duration: 3s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(3) {
+            top: 80px;
+            right: 0px;
+            left:initial;
+            animation-delay: 0.4s;
+            animation-duration: 2s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(4) {
+            top: 0;
+            right: 180px;
+            left:initial;
+            animation-delay: 0.6s;
+            animation-duration: 1.5s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(5) {
+            top: 0;
+            right: 400px;
+            left:initial;
+            animation-delay: 0.8s;
+            animation-duration: 2.5s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(6) {
+            top: 0;
+            right: 600px;
+            left:initial;
+            animation-delay: 1s;
+            animation-duration: 3s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(7 ) {
+            top: 300px;
+            right: 0px;
+            left:initial;
+            animation-delay: 1s;
+            animation-duration: 1.75s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(8) {
+            top: 0px;
+            right: 700px;
+            left:initial;
+            animation-delay: 1.4s;
+            animation-duration: 1.25s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(9) {
+            top: 0px;
+            right: 1220px;
+            left:initial;
+            animation-delay: 0.75s;
+            animation-duration: 2.25s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(10) {
+            top: 0px;
+            right: 1000px;
+            left:initial;
+            animation-delay: 2.75s;
+            animation-duration: 2.25s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(11) {
+            top: 0;
+            right: -430px;
+            left: initial;
+            animation-delay: 5s;
+            animation-duration: 2s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(12) {
+            top: 0;
+            right: -330px;
+            left: initial;
+            animation-delay: 5s;
+            animation-duration: 2s;
+        }
+
+        .background-animation--one .blogzee-background-animation span.item:nth-child(13) {
+            top: 0px;
+            right: 1330px;
+            left: initial;
+            animation-delay: 0.75s;
+            animation-duration: 2.25s;
+        }
+
+    /* BK Animation Two */
+        .background-animation--two .blogzee-background-animation {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: -1;
+            top: 0;
+        }
+
+        .background-animation--two .blogzee-background-animation .item {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            border: 4px solid var(--blogzee-animation-object-color);
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(1) {
+            top: 12%;
+            left: 42%;
+            animation: animate 10s linear infinite;
+        }
+
+        .background-animation--two  .blogzee-background-animation .item:nth-child(2) {
+            top: 70%;
+            left: 50%;
+            animation: animate 7s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(3) {
+            top: 17%;
+            left: 6%;
+            animation: animate 9s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(4) {
+            top: 20%;
+            left: 60%;
+            animation: animate 10s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(5) {
+            top: 67%;
+            left: 10%;
+            animation: animate 6s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(6) {
+            top: 80%;
+            left: 70%;
+            animation: animate 12s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(7) {
+            top: 60%;
+            left: 80%;
+            animation: animate 15s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(8) {
+            top: 32%;
+            left: 25%;
+            animation: animate 16s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(9) {
+            top: 90%;
+            left: 25%;
+            animation: animate 9s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(10) {
+            top: 20%;
+            left: 80%;
+            animation: animate 5s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(11) {
+            top: 41%;
+            right: 9%;
+            animation: animate 5s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(12) {
+            top: 80%;
+            right: 11%;
+            animation: animate 5s linear infinite;
+        }
+
+        .background-animation--two .blogzee-background-animation .item:nth-child(13) {
+            top: 91%;
+            left: 6%;
+            animation: animate 5s linear infinite;
+        }
+
+        @keyframes animate {
+            0% {
+                transform: scale(0) translateY(0) rotate(0);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1.3) translateY(-90px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 610px) {
+            .background-animation--two .blogzee-background-animation .item:nth-child(4),
+            .background-animation--two .blogzee-background-animation .item:nth-child(5),
+            .background-animation--two .blogzee-background-animation .item:nth-child(6),
+            .background-animation--two .blogzee-background-animation .item:nth-child(7),
+            .background-animation--two .blogzee-background-animation .item:nth-child(11),
+            .background-animation--two .blogzee-background-animation .item:nth-child(13),
+            .background-animation--two .blogzee-background-animation .item:nth-child(9),
+            .background-animation--three .blogzee-background-animation .item:nth-child(9),
+            .background-animation--three .blogzee-background-animation .item:nth-child(4),
+            .background-animation--three .blogzee-background-animation .item:nth-child(12),
+            .background-animation--three .blogzee-background-animation .item:nth-child(10),
+            .background-animation--three .blogzee-background-animation .item:nth-child(2),
+            .background-animation--three .blogzee-background-animation .item:nth-child(5),
+            .background-animation--three .blogzee-background-animation .item:nth-child(1),
+            .blogzee-background-animation.hide-on-mobile {
+                display: none;
+            }
+        }
+
+    /* BK Animation Three */
+        .background-animation--three .blogzee-background-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .background-animation--three .blogzee-background-animation .item {
+            position: absolute;
+            display: block;
+            width: 25px;
+            height: 25px;
+            background-color: var(--blogzee-animation-object-color);
+            animation: animate-up 20s linear infinite;
+            bottom: -150px;
+            border-radius: 6px;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(1) {
+            left: 86%;
+            width: 80px;
+            height: 80px;
+            animation-delay: 0s;
+            border-radius: 33% 67% 58% 42% / 30% 32% 68% 70%;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(2) {
+            left: 12%;
+            width: 30px;
+            height: 30px;
+            animation-delay: 1.5s;
+            animation-duration: 10s;
+            background-color: transparent;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(2):after {
+            content: '';
+            position: absolute;
+            border-width: 2.3em;
+            border-style: solid;
+            border-left-color: var(--blogzee-animation-object-color);
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+            border-top-color: transparent;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(3) {
+            left: 70%;
+            width: 100px;
+            height: 100px;
+            animation-delay: 1.5s;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(4) {
+            left: 42%;
+            width: 150px;
+            height: 150px;
+            animation-delay: 0s;
+            animation-duration: 15s;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(5) {
+            left: 65%;
+            width: 40px;
+            height: 40px;
+            animation-delay: 0s;
+            border-radius: 50%;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(6) {
+            left: 15%;
+            width: 110px;
+            height: 110px;
+            animation-delay: 3.5s;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(7) {
+            left: 27%;
+            width: 110px;
+            height: 110px;
+            animation-delay: 9s;
+            border-radius: 50%;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(8) {
+            left: 59%;
+            width: 90px;
+            height: 90px;
+            animation-delay: 6.2s;
+            border-radius: 73% 27% 58% 42% / 43% 56% 44% 57%;
+        }
+
+        .background-animation--three .blogzee-background-animation .item:nth-child(9),
+        .background-animation--three .blogzee-background-animation .item:nth-child(10),
+        .background-animation--three .blogzee-background-animation .item:nth-child(11),
+        .background-animation--three .blogzee-background-animation .item:nth-child(12),
+        .background-animation--three .blogzee-background-animation .item:nth-child(13) {
+            display: none;
+        }
+
+        @keyframes animate-up {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-800px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .boxed--layout.background-animation--one .blogzee-background-animation,
+        .boxed--layout.background-animation--two .blogzee-background-animation,
+        .boxed--layout.background-animation--three .blogzee-background-animation {
+            z-index: 1;
+        }
+
+/*
+===========================
+Cursor Animation
+===========================
+*/
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Animation Two */
+    .blogzee-cursor.type--two {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: var( --blogzee-global-preset-gradient-theme-color );
+        border-radius: 50%;
+        position: absolute;
+        z-index: 999;
+        pointer-events: none;
+        overflow: hidden;
+        transform: translate(92%, 106%);
+        transition: .10s;
+    }
+
+    .blogzee-cursor.type--two.isActive {
+        opacity: .5;
+        transform: translate(105%, 106%) scale(4);
+    }

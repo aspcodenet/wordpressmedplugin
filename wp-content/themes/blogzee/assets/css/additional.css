@@ -1,0 +1,712 @@
+/** 
+	1.0 Social icons
+	2.0 Social Share
+	3.0 Custom Button Icon Hover Effect
+	4.0 News Kit Elementor Compatible
+
+**/
+
+
+	/** Social Icons **/
+	.social-platforms-widget.global-color-icon .fa-facebook-f {
+		background-color: #1877F2;
+		box-shadow: 0 5px 10px -2px #1877F2;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-instagram,
+	.social-platforms-widget.global-color-icon .fa-square-instagram {
+		background-color: #E1306C;
+		box-shadow: 0 5px 10px -2px #E1306C;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-youtube {
+		background-color: #FF0000;
+		box-shadow: 0 5px 10px -2px #FF0000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-google-wallet {
+		background-color: #09a25a;
+		box-shadow: 0 5px 10px -2px #09a25a;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-twitter {
+		background-color: #1DA1F2;
+		box-shadow: 0 5px 10px -2px #1DA1F2;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-x-twitter {
+		background-color: #222222;
+		box-shadow: 0 5px 10px -2px #222222;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-linkedin {
+		background-color: #0A66C2;
+		box-shadow: 0 5px 10px -2px #0A66C2;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-reddit {
+		background-color: #FF5700;
+		box-shadow: 0 5px 10px -2px #FF5700;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-tumblr {
+		background-color: #000;
+		box-shadow: 0 5px 10px -2px #000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-sina_weibo {
+		background-color: #DF2029;
+		box-shadow: 0 5px 10px -2px #DF2029;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-discord {
+		background-color: #7289da;
+		box-shadow: 0 5px 10px -2px #7289da;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-flicker {
+		background-color: #FF0084;
+		box-shadow: 0 5px 10px -2px #FF0084;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-skype {
+		background-color: #00AFF0;
+		box-shadow: 0 5px 10px -2px #00AFF0;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-telegram {
+		background-color: #2AABEE;
+		box-shadow: 0 5px 10px -2px #2AABEE;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-gmail {
+		background-color: #34a853;
+		box-shadow: 0 5px 10px -2px #34a853;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-whatsapp {
+		background-color: #25d366;
+		box-shadow: 0 5px 10px -2px #25d366;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-google_plus {
+		background-color: #dd4b39;
+		box-shadow: 0 5px 10px -2px #dd4b39;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-qzone {
+		background-color: #FFCD00;
+		box-shadow: 0 5px 10px -2px #FFCD00;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-pinterest {
+		background-color: #E60023;
+		box-shadow: 0 5px 10px -2px #E60023;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-vk {
+		background-color: #4C75A3;
+		box-shadow: 0 5px 10px -2px #4C75A3;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-line_me {
+		background-color: #06C755;
+		box-shadow: 0 5px 10px -2px #06C755;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-blogger {
+		background-color: #fb8f3d;
+		box-shadow: 0 5px 10px -2px #fb8f3d;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-evernote {
+		background-color: #00A82D;
+		box-shadow: 0 5px 10px -2px #00A82D;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-live_journal {
+		background-color: #00adcc;
+		box-shadow: 0 5px 10px -2px #00adcc;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-google_bookmarks {
+		background-color: #DB4437;
+		box-shadow: 0 5px 10px -2px #DB4437;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-yahoo {
+		background-color: #410093;
+		box-shadow: 0 5px 10px -2px #410093;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-okru {
+		background-color: #ed812b;
+		box-shadow: 0 5px 10px -2px #ed812b;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-google_meet {
+		background-color: #00832D;
+		box-shadow: 0 5px 10px -2px #00832D;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-viber {
+		background-color: #7360F2;
+		box-shadow: 0 5px 10px -2px #7360F2;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-google_classroom {
+		background-color: #eda306;
+		box-shadow: 0 5px 10px -2px #eda306;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-pocket {
+		background-color: #ED4255;
+		box-shadow: 0 5px 10px -2px #ED4255;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-mix {
+		background-color: #FF8126;
+		box-shadow: 0 5px 10px -2px #FF8126;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-flipbloard {
+		background-color: #e12828;
+		box-shadow: 0 5px 10px -2px #e12828;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-xing {
+		background-color: #026466;
+		box-shadow: 0 5px 10px -2px #026466;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-digg {
+		background-color: #005be2;
+		box-shadow: 0 5px 10px -2px #005be2;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-stumpleupon {
+		background-color: #EB471D;
+		box-shadow: 0 5px 10px -2px #EB471D;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-delicious {
+		background-color: #585e46;
+		box-shadow: 0 5px 10px -2px #585e46;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-buffer {
+		background-color: #9FF6F9;
+		box-shadow: 0 5px 10px -2px #9FF6F9;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-diaspora {
+		background-color: #000;
+		box-shadow: 0 5px 10px -2px #000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-hackernews {
+		background-color: #FF6600;
+		box-shadow: 0 5px 10px -2px #FF6600;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-instapaper {
+		background-color: #000;
+		box-shadow: 0 5px 10px -2px #000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-renren {
+		background-color: #01579B;
+		box-shadow: 0 5px 10px -2px #01579B;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-threema {
+		background-color: #000;
+		box-shadow: 0 5px 10px -2px #000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-sms {
+		background-color: #8cb4f3;
+		box-shadow: 0 5px 10px -2px #8cb4f3;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-diigo {
+		background-color: #4487C7;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-wordpress {
+		background-color: #00749C;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-pocketcasts {
+		background-color: #F43E37;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-castro {
+		background-color: #44232f;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-douban {
+		background-color: #46C05A;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-mewe {
+		background-color: #000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-copy_link {
+		background-image: linear-gradient(151deg, #F8997D 0%, #AD336D 100%);
+	}
+
+	.social-platforms-widget.global-color-icon .fa-print {
+		background-color: #000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-gettr {
+		background-color: #D60909;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-parler {
+		background-color: #D009D6;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-gab {
+		background-color: #09D63E;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-yummly {
+		background-color: #e16120;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-aim {
+		background-color: #F10202;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-amazon_wish_list {
+		background-color: #061421;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-bitty_browser {
+		background-color: #09D63E;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-blinklist {
+		background-color: #12E949;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-blogmarks {
+		background-color: #D8AE0C;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-bookmarks_fr {
+		background-color: #BDD80C;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-box_net {
+		background-color: #2509DB;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-buddymarks {
+		background-color: #48a9c5;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-diary_ru {
+		background-color: #56a0d3;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-draugiem {
+		background-color: #ff6a00;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-fark {
+		background-color: #7fbb00;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-fintel {
+		background-color: #537b35;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-folkd {
+		background-color: #b52e31;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-gentle_reader {
+		background-color: #b3dcff;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-hatena {
+		background-color: #5ecc62;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-kakao {
+		background-color: #ffc20e;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-kik {
+		background-color: #7fbb00;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-kindle_it {
+		background-color: #0079c1;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-known {
+		background-color: #629aa9;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-meneame {
+		background-color: #ff7800;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-mixi {
+		background-color: #aca095;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-myspace {
+		background-color: #075aaa;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-netvouz {
+		background-color: #00acee;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-newsvine {
+		background-color: #2baf2b;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-nujij {
+		background-color: #ce1126;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-odnoklassniki {
+		background-color: #ff7800;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-outlook {
+		background-color: #1769ff;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-papaly {
+		background-color: #44c7f4;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-pinboard {
+		background-color: #ff322e;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-printfriendly {
+		background-color: #01cd74;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-protoge_bookmarks {
+		background-color: #231f20;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-pusha {
+		background-color: #146eb4;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-rediff_mypage {
+		background-color: #b52e31;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-refind {
+		background-color: #136ad5;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-segnalo {
+		background-color: #fb8a2e;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-sitejot {
+		background-color: #ed1b2e;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-slashdot {
+		background-color: #00b2a9;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-stocktwits {
+		background-color: #007fdb;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-stumpedia {
+		background-color: #ffb310;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-svejo {
+		background-color: #f90;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-trello {
+		background-color: #026aa7;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-tuenti {
+		background-color: #000;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-twiddla {
+		background-color: #013ca6;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-typepod_post {
+		background-color: #a0ac48;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-viadeo {
+		background-color: #EE7356;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-wykop {
+		background-color: #0091cd;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-yoolink {
+		background-color: #007cc0;
+	}
+
+	.social-platforms-widget.global-color-icon .fa-youmob {
+		background-color: #fcd535;
+	}
+
+
+/** Social Share **/
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-facebook-f,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-facebook {
+		color: #1877F2;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-instagram,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-instagram {
+		color: #E1306C;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-twitch {
+		color: #6441a5;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-twitter {
+		color: #1DA1F2;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-x-twitter,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-x-twitter {
+		color: #333333;
+	}
+
+	.bb-bldr-row .blogzee-social-icon .fa-linkedin {
+		color: #0A66C2;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-reddit {
+		color: #FF5700;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-tumblr,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-tumblr {
+		color: #000;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-weixin {
+		color: #09B83E;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-weibo {
+		color: #DF2029;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-google-plus,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-google-plus,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-google-plus-g {
+		color: #dd4b39;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-skype {
+		color: #00AFF0;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-telegram {
+		color: #2AABEE;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-whatsapp {
+		color: #25d366;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-pinterest,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-pinterest,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-pinterest-p {
+		color: #E60023;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-vk {
+		color: #4C75A3;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-line {
+		color: #06C755;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-blogger,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-blogger-b {
+		color: #fb8f3d;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-evernote {
+		color: #00A82D;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-yahoo {
+		color: #410093;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-viber {
+		color: #7360F2;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-mix{
+		color: #FF8126;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-xing,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-xing {
+		color: #026466;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-digg {
+		color: #005be2;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-stumpleupon,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-stumpleupon-circle {
+		color: #EB471D;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-delicious {
+		color: #585e46;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-buffer {
+		color: #9FF6F9;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-diaspora {
+		color: #000;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-renren {
+		color: #01579B;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-wordpress,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-wordpress-simple {
+		color: #00749C;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-amazon {
+		color: #FF9900;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-print {
+		color: #000;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-android {
+		color: #78C257;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-envelope {
+		color: #CF202E
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-odnoklassniki,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-odnoklassniki {
+		color: #ff7800;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-get-pocket {
+		color: #f0465b;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-flipboard {
+		color: #f52f2f;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-stumbleupon-circle,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-stumbleupon {
+		color: #EB4924;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-hacker-news {
+		color: #ff6600;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-comment-sms {
+		color: #39ff5a;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-trello {
+		color: #026aa7;
+	}
+
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-viadeo,
+	.bb-bldr-row .blogzee-social-icon.official-color--enabled .fa-square-viadeo {
+		color: #EE7356;
+	}
+
+
+/** Custom Button Icon Hover Effect **/
+
+/** Anaimation One **/
+	.header-custom-button.animation-type--one .custom-button-icon i {
+		transform-origin: top center;
+		animation: ring 1.5s ease infinite;
+	}
+
+	@keyframes ring {
+		0% {
+			transform: rotate(35deg);
+		}
+
+		12.5% {
+			transform: rotate(-30deg);
+		}
+
+		25% {
+			transform: rotate(25deg);
+		}
+
+		37.5% {
+			transform: rotate(-20deg);
+		}
+
+		50% {
+			transform: rotate(15deg);
+		}
+
+		62.5% {
+			transform: rotate(-10deg);
+		}
+
+		75% {
+			transform: rotate(5deg);
+		}
+
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+/** 4.0 News Kit Elementor Compatible **/
+body.elementor-page article h2 {
+	font-weight: initial;
+	font-style: initial;
+}
+
+body.elementor-page.single-post #primary .blogzee-inner-content-wrap article .entry-content a, body.single-post #primary article footer .tags-links a {
+	text-decoration: initial;
+}
+
+body.elementor-page.single-post article .entry-content p a, body.elementor-page.single-post article .entry-content a {
+	color: initial;
+}

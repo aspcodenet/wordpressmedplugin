@@ -1,0 +1,42 @@
+.customize-control.customize-control-section-heading-toggle {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    width: 100%;
+    margin-left: -20px;
+    padding: 12px 20px;
+    box-sizing: initial;
+    box-shadow: 0 3px 12px -1px rgba(7,10,25,0.05),0 22px 27px -20px rgba(7,10,25,0.05);
+}
+
+.customize-control-section-heading-toggle .customize-section-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customize-control-section-heading-toggle .customize-control-title {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+#sub-accordion-section-blogzee_category_colors_section .customize-control.customize-control-section-heading-toggle,
+#sub-accordion-section-blogzee_tag_colors_section .customize-control.customize-control-section-heading-toggle {
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 50px;
+    background-color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    margin-left: 0;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 8px;
+}
+
+#sub-accordion-section-blogzee_category_colors_section .customize-control,
+#sub-accordion-section-blogzee_tag_colors_section .customize-control {
+    margin-bottom: 0;
+
+}

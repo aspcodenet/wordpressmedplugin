@@ -1,0 +1,2 @@
+= 1.0.0 - Dec 29th, 2023 =
+	* Initial release

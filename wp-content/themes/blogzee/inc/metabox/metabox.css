@@ -1,0 +1,133 @@
+/** page and post meta **/
+	.postbox .sidebar-section .sidebar-layouts-wrap,
+	.postbox .single-layouts-section .single-layouts-wrap
+	{
+	    display: flex;
+	    flex-wrap: wrap;
+	    gap: 30px;
+	}
+
+	.term-sidebar-layouts-wrap .taxonomy-sidebar-layouts-wrap,
+	.term-archive-layouts-wrap .taxonomy-archive-layouts-wrap,
+	.form-field .taxonomy-sidebar-layouts-wrap,
+	.form-field .taxonomy-archive-layouts-wrap {
+	    display: flex;
+	    flex-wrap: wrap;
+	    gap: 10px;
+	}
+
+	.postbox .sidebar-section .sidebar-layouts-wrap > p,
+	.postbox .single-layouts-section .single-layouts-wrap > p
+	{
+	    position: relative;
+	    flex: 0 1 80px;
+
+	}
+
+	.term-sidebar-layouts-wrap .taxonomy-sidebar-layouts-wrap > p,
+	.term-archive-layouts-wrap .taxonomy-archive-layouts-wrap > p,
+	.form-field .taxonomy-sidebar-layouts-wrap > p,
+	.form-field .taxonomy-archive-layouts-wrap > p   {
+	    position: relative;
+	    flex: 0 1 30px;
+
+	}
+
+	.postbox .sidebar-section .sidebar-layouts-wrap > p label span,
+	.postbox .single-layouts-section .single-layouts-wrap > p label span,
+	.term-sidebar-layouts-wrap .taxonomy-sidebar-layouts-wrap > p label span,
+	.term-archive-layouts-wrap .taxonomy-archive-layouts-wrap > p label span,
+	.form-field .taxonomy-sidebar-layouts-wrap > p label span,
+	.form-field .taxonomy-archive-layouts-wrap > p label span  {
+		display: none;
+	}
+
+	.postbox .sidebar-section .sidebar-layouts-wrap > p  input,
+	.postbox .single-layouts-section .single-layouts-wrap > p  input,
+	.term-sidebar-layouts-wrap .taxonomy-sidebar-layouts-wrap > p input,
+	.term-archive-layouts-wrap .taxonomy-archive-layouts-wrap > p input,
+	.form-field .taxonomy-sidebar-layouts-wrap > p input,
+	.form-field .taxonomy-archive-layouts-wrap > p input  {
+	    position: absolute;
+	    visibility: hidden;
+	}
+
+	.postbox .sidebar-section .sidebar-layouts-wrap label img,
+	.postbox .single-layouts-section .single-layouts-wrap label img {
+		background-color: transparent;
+		border-radius: 8px 8px 0 0;
+	    background-color: transparent;
+	    padding: 10px 12px 0 12px;
+	    margin-bottom: 10px;
+	}
+
+	.form-field .taxonomy-sidebar-layouts-wrap label img,
+	.form-field .taxonomy-archive-layouts-wrap label img {
+		background-color: transparent;
+		border-radius: 8px 8px 0 0;
+	    background-color: transparent;
+	    padding: 6px 10px 0 6px;
+	    margin-bottom: 10px;
+	    width: 80px;
+	}
+
+	.term-sidebar-layouts-wrap .taxonomy-sidebar-layouts-wrap label img,
+	.term-archive-layouts-wrap .taxonomy-archive-layouts-wrap label img
+	 {
+		background-color: transparent;
+		border-radius: 8px 8px 0 0;
+	    background-color: transparent;
+	    padding: 5px 6px 0 6px;
+	    margin-bottom: 10px;
+	    width: 70px;
+	}
+
+	.postbox .sidebar-section .sidebar-layouts-wrap label img:hover,
+	.postbox .single-layouts-section .single-layouts-wrap label img:hover,
+	.term-sidebar-layouts-wrap .taxonomy-sidebar-layouts-wrap label img:hover,
+	.term-archive-layouts-wrap .taxonomy-archive-layouts-wrap label img:hover,
+	.form-field .taxonomy-sidebar-layouts-wrap label img:hover,
+	.form-field .taxonomy-archive-layouts-wrap label img:hover  {
+		background-color: #dde0e2;
+	}
+
+	.postbox .sidebar-section .sidebar-layouts-wrap .layout-item.isactive label img,
+	.postbox .single-layouts-section .single-layouts-wrap .layout-item.isactive label img,
+	.term-sidebar-layouts-wrap .taxonomy-sidebar-layouts-wrap .layout-item.isactive label img,
+	.term-archive-layouts-wrap .taxonomy-archive-layouts-wrap .layout-item.isactive label img,
+	.form-field .taxonomy-sidebar-layouts-wrap .layout-item.isactive label img,
+	.form-field .taxonomy-archive-layouts-wrap .layout-item.isactive label img {
+		background-color: #007cba;
+	}
+
+	.postbox .sidebar-section h2.title,
+	.postbox .single-layouts-section h2.title
+	 {
+		font-weight: 500;
+    	font-size: 16px;
+    	background-color: #e4e4e4;
+    	margin-bottom: 15px!important;
+	}
+
+	.postbox .post-meta-section .meta-item label {
+		width: 120px;
+		padding-right: 5px;
+		display: inline-block;
+	}
+
+	.postbox .post-meta-section .meta-item select,
+	.postbox .post-meta-section .meta-item input {
+		width: 120px;
+	}
+
+
+	.term-sidebar-layouts-wrap h2,
+	.term-archive-layouts-wrap h2,
+	.form-field .taxonomy-sidebar-layouts-wrap h2,
+	.form-field .taxonomy-archive-layouts-wrap h2  {
+		font-weight: 500;
+    	font-size: 16px;
+    	background-color: #e4e4e4;
+    	margin-bottom: 15px!important;
+    	padding: 10px;
+	}

@@ -1,0 +1,72 @@
+<xmpl-config>
+    <admin-texts>
+		<key name="theme_mods_blogzee">
+            <!-- Specify your text fields here keys here -->
+            <key name="custom_button_label" />
+            <key name="stt_text" />
+            <key name="you_may_have_missed_title" />
+            <key name="single_post_related_posts_title" />
+            <key name="bottom_footer_site_info" />
+            <!-- Specify your repeaters fields here keys here -->
+            <key name="typography_presets">
+                <key name="labels">
+                    <key name="*" />
+                </key>
+            </key>
+            <!-- Specify your widgets here keys here -->
+            <key name="blogzee_author_info_widget">   <!-- Author Widget -->
+                <key name="*">  <!-- Target all instance of this widget -->
+                    <key name="widget_title" />
+                    <key name="author_name" />
+                    <key name="author_tag" />
+                    <key name="author_desc" />
+                </key>
+            </key>
+            <key name="blogzee_carousel_widget">  <!-- Carousel Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+            <key name="blogzee_category_collection_widget">   <!-- Category Collection Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+            <key name="blogzee_heading_widget">   <!-- Heading Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+            <key name="blogzee_post_grid_widget"> <!-- Post Grid Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+            <key name="blogzee_post_list_widget"> <!-- Post List Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+            <key name="blogzee_posts_grid_two_column_widget"> <!-- Post Grid Two Column Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+            <key name="blogzee_social_platforms_widget">  <!-- Social Platforms Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+            <key name="blogzee_tags_collection_widget">   <!-- Tags Collection Widget -->
+                <key name="*">
+                    <key name="widget_title" />
+                </key>
+            </key>
+		</key>
+	</admin-texts>
+
+    <custom-fields>
+        <!-- Specify your post meta keys here -->
+        <custom-field action="translate">read_time</custom-field>
+    </custom-fields>
+</xmpl-config>

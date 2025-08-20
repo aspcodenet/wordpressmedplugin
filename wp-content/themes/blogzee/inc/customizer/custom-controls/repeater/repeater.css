@@ -1,0 +1,704 @@
+/**
+ * Applies styling for repeater control
+ * 
+ * Particular styling for this control
+ */
+.blogzee-repeater-control .blogzee-repeater-control-inner,
+.customize-social-share-control .blogzee-social-share-inner {
+    padding: 10px 0;
+}
+
+.blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item,
+.customize-social-share-control .blogzee-social-share-inner .sort-item {
+    background: #ffffff;
+    box-shadow: 0px 0px 2px #d8d8d8;
+    z-index: 2;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.customize-social-share-control .blogzee-social-share-inner .sort-item {
+    border: 1px solid #dbdbdb;
+    box-shadow: none;
+}
+
+.blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item {
+    box-shadow: none;
+    border: 1px solid #dbdbdb;
+}
+
+.blogzee-repeater-item .remove-item .dashicons-trash,
+.blogzee-social-share-inner .sort-item .dashicons-trash {
+    background-color: #ff4e7d;
+    color: #fff;
+    font-size: 10px;
+    height: 12px;
+    visibility: hidden;
+    width: 16px;
+    text-align: center;
+}
+
+.blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item:hover .remove-item .dashicons-trash,
+.customize-social-share-control .blogzee-social-share-inner .sort-item:hover .dashicons-trash {
+    visibility: visible;
+}
+
+.blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item.not-visible {
+    opacity: 0.6;
+    border: 1px dashed;
+}
+
+.blogzee-repeater-control-inner .blogzee-repeater-item h2 {
+    margin: 0;
+}
+
+.blogzee-repeater-control-inner .blogzee-repeater-item .item-heading-wrap,
+.customize-social-share-control .blogzee-social-share-inner .sort-list .sort-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogzee-repeater-control-inner .blogzee-repeater-item .item-heading-wrap,
+.customize-control-social-share .customize-social-share-control .item {
+    cursor: move;
+}
+
+.customize-social-share-control .blogzee-social-share-inner .sort-item .dashicons-trash {
+    position: absolute;
+    left: -11px;
+    padding: 4px 3px 1px 3px;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 25px;
+    height: 12px;
+    width: 13px;
+    text-align: center;
+    display: inline-block;
+    top: -9px;
+}
+
+.customize-social-share-control .blogzee-social-share-inner .sort-item .dashicons-trash:hover {
+    background-color: #fe1352;
+    cursor: pointer;
+} 
+
+.blogzee-repeater-control-inner .blogzee-repeater-item .item-heading-wrap .sortable-icon {
+    cursor: move;
+}
+
+.blogzee-repeater-control-inner .blogzee-repeater-item .item-control-fields {
+    display: none;
+    padding: 10px 20px;
+    border-top: 1px solid #7b7b7b40;
+}
+
+.blogzee-repeater-item .item-control-fields .control--item-label {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.blogzee-repeater-item .item-control-fields .control--item-description {
+    font-size: 12px;
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.blogzee-repeater-item .item-control-fields .single-control {
+    margin-bottom: 8px;
+}
+
+.customize-control .blogzee-repeater-control input, 
+.customize-control .blogzee-repeater-control textarea,
+.customize-control .blogzee-repeater-control .image-holder {
+    width: 100%;
+    margin-top: 2px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+    border-radius: 0;
+    margin-bottom: 8px;
+}
+
+.blogzee-repeater-control-inner .buttons-wrap {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.blogzee-repeater-control-inner .buttons-wrap .add-new-item {
+    padding: 7px 12px 9px 9px;
+    border: none;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    gap: 4px;
+    background-color: #5fa1ff;
+    color: #fff;
+}
+
+.blogzee-repeater-control-inner .buttons-wrap .add-new-item:hover {
+    background-color: #4a93fb;
+}
+
+.blogzee-repeater-control-inner .buttons-wrap .add-new-item .dashicons:before {
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.blogzee-repeater-control-inner .remove-item {
+    color: #d63638;
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    right: -11px;
+    top: -3px;
+}
+
+.blogzee-repeater-control-inner .image-field .image-holder .add-image-trigger {
+    cursor: pointer;
+    text-align: center;
+    border: 1px dashed #aba9a9;
+    padding: 8px 10px;
+}
+
+.blogzee-repeater-control-inner .blogzee-repeater-item.popupActive .item-heading-wrap .item-heading {
+    font-weight: 500;
+}
+
+.customize-control .button-wrap .add-new-item .dashicon-plus {
+    vertical-align: middle;
+    padding-right: 3px;
+    padding-top: 1px;
+}
+
+.blogzee-repeater-control-inner .image-field .no-image, 
+.blogzee-repeater-control-inner .image-field .no-trigger {
+    display: none;
+}
+
+.blogzee-repeater-control-inner .image-field .image-holder .image-element {
+    position: relative;
+}
+
+.blogzee-repeater-control-inner .image-field .image-holder .image-element .remove-image {
+    display: none;
+}
+.blogzee-repeater-control-inner .image-field .image-holder .image-element:hover .remove-image {
+    position: absolute;
+    cursor: pointer;
+    color: #ff00009e;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed;
+    text-align: center;
+    display: flex;
+    top: 0;
+}
+
+.blogzee-repeater-control-inner .image-field .image-holder .image-element:hover img {
+    opacity: 0.5;
+}
+
+.blogzee-repeater-control-inner .blogzee-repeater-item .item-control-fields.isShow {
+    display: block;
+}
+
+.blogzee-repeater-control .fontawesome-icon-picker .icon-header > div.active-icon {
+    flex: 80%;
+    background-color: #fff;
+    padding: 7px 10px;
+}
+
+.blogzee-repeater-item.popupActive {
+    border-top: 2px solid #2271b1;
+}
+
+.customize-social-share-control .blogzee-social-share-inner .sort-list .sort-item {
+    padding: 8px;
+}
+
+.blogzee-social-share-inner .components-button.is-small.has-icon:not(.has-text) {
+    width: 60px;
+    padding-right: 5px;
+}
+
+/******** Fontawesome Icon picker ****************/
+.blogzee-repeater-control .fontawesome-icon-picker .icon-header {
+    cursor: pointer;
+}
+
+.blogzee-repeater-control .fontawesome-icon-picker .icons-list i,
+.customize-control-social-share .customize-social-share-control .dropdown-wrap .social-share-icons i {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px;
+    width: 16px;
+    border-radius: 2px;
+}
+
+.blogzee-repeater-control .fontawesome-icon-picker .icons-list i:hover,
+.blogzee-repeater-control .fontawesome-icon-picker .icons-list i.selected {
+    background-color: #5fa1ff;
+    color: #fff;
+}
+
+.blogzee-repeater-control .fontawesome-icon-picker .icon-header {
+    display: flex;
+    background: #f0f0f1;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+    margin-bottom: 14px;
+}
+
+.blogzee-repeater-control .fontawesome-icon-picker .icon-header i {
+    font-size: 17px;
+}
+
+.blogzee-repeater-control .fontawesome-icon-picker .icon-header > div {
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.blogzee-repeater-control .fontawesome-icon-picker .icon-holder .icons-list {
+    height: 185px;
+    overflow: auto;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 3px rgb(174 174 174 / 19%);
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+.customize-control-social-share .customize-social-share-control .dropdown-wrap {
+    height: 225px;
+    overflow: auto;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 3px rgba(174 174 174 / 50%);
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 220px;
+    margin-left: 1px;
+}
+
+#sub-accordion-section-general_settings_panel .blogzee-repeater-item .item-control-fields .single-control.checkbox-field .control-inner {
+    display: flex;
+}
+
+#sub-accordion-section-general_settings_panel .blogzee-repeater-item .item-control-fields .single-control.checkbox-field .control-inner input {
+    flex: 0;
+    margin-right: 15px;
+}
+
+#sub-accordion-section-general_settings_panel .blogzee-repeater-item .item-control-fields .single-control.checkbox-field .control-inner  label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.blogzee-repeater-item .single-control.alignment-field {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    gap: 7px;
+}
+
+.blogzee-repeater-item .single-control.alignment-field .alignment-items {
+    display: flex;
+    border: 1px solid #5fa1ff;
+    cursor: pointer;
+}
+
+.blogzee-repeater-item .single-control.alignment-field .alignment-items span:nth-child(2) {
+    border-right: 1px solid #5fa1ff;
+    border-left: 1px solid #5fa1ff;
+}
+
+.blogzee-repeater-item .single-control.alignment-field .alignment-items .alignment-item {
+    flex: 1 1 auto;
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 6px 12px;
+    display: flex;
+}
+
+.blogzee-repeater-item .single-control.alignment-field .alignment-items .alignment-item:hover {
+    background-color: #f0f0f1;
+}
+
+.blogzee-repeater-item .single-control.alignment-field .alignment-items .alignment-item.isactive {
+    background: #5fa1ff;
+    color: #fff;
+}
+
+#customize-control-video_playlist_repeater .blogzee-repeater-item .remove-item .dashicons-trash {
+    background-color: #ff4e7d;
+    color: #fff;
+    font-size: 10px;
+    width: 18px;
+    height: 17px;
+    visibility: hidden;
+    text-decoration: none;
+    line-height: 18px;
+    border-radius: 15px;
+    margin-left: -5px;
+}
+
+#customize-control-video_playlist_repeater .blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item:hover .remove-item .dashicons-trash {
+    visibility: visible;
+}
+
+/** Social share repeater **/
+    .customize-control-social-share .customize-social-share-control .item:hover,
+    .blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item .item-heading-wrap:hover {
+        box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 10%);
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .dashicons-trash:hover {
+        background-color: #db1f1f;
+    }
+
+    .customize-control-social-share .customize-social-share-control .add-to-list .dashicon {
+        padding-top: 7px;
+    }
+
+    .blogzee-social-share-control-popover.components-dropdown__content .components-popover__content {
+        background-color: #fff;
+        box-shadow: 0px 2px 4px 2px #0000001c;
+        border-radius: 4px;
+        padding: 12px;
+        width: min-content;
+    }
+
+    .blogzee-social-share-control-popover.components-dropdown__content .components-popover__content .social-share i {
+        padding: 6px;
+        font-size: 15px;
+    }
+
+    .blogzee-social-share-control-popover.components-dropdown__content .components-popover__content .social-share i:hover {
+        color: #0071a1;
+        cursor: pointer;
+    }
+
+    .blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs {
+        display: flex;
+        margin: 0;
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-bottom: 10px;
+    }
+
+    .blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs button {
+        flex: 1 1 100%;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        height: 40px;
+    }
+
+    .blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs button:last-child {
+        border-right: none;
+    }
+
+    .blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs button.active-tab:after {
+        position: absolute;
+        content: "";
+        left: -1px;
+        bottom: -1px;
+        width: calc(100% + 2px);
+        height: 2px;
+        background: #0071a1;
+    }
+
+    .blogzee-social-share-icon-popover .social-share-icons {
+        max-width: 210px;
+        width: 210px;
+    }
+
+    /** sub tabgs */
+    .blogzee-social-share-control-popover .blogzee-sub-group-tab-panel {
+        margin-top: 15px;
+    }
+
+    .blogzee-social-share-control-popover.blogzee-social-share-icon-popover .blogzee-group-tab-panel {
+        margin-top: -10px;
+    }
+
+    .blogzee-social-share-control-popover .blogzee-sub-group-tab-panel .components-tab-panel__tabs,
+    .blogzee-social-share-control-popover.blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs {
+        display: flex;
+        margin: 0;
+        margin-top: 0;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-bottom: 10px;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .blogzee-social-share-control-popover.blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs {
+        border-top: none;
+    }
+
+    .blogzee-social-share-control-popover .blogzee-sub-group-tab-panel .components-tab-panel__tabs button,
+    .blogzee-social-share-control-popover.blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs button {
+        flex: 1 1 100%;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        height: 40px;
+    }
+
+    .blogzee-social-share-control-popover .blogzee-sub-group-tab-panel .components-tab-panel__tabs button:last-child,
+    .blogzee-social-share-control-popover.blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs button:last-child  {
+        border-right: none;
+    }
+
+    .blogzee-social-share-control-popover .blogzee-sub-group-tab-panel .components-tab-panel__tabs button.active-tab:after,
+    .blogzee-social-share-control-popover.blogzee-social-share-icon-popover .blogzee-group-tab-panel .components-tab-panel__tabs button.active-tab:after {
+        position: absolute;
+        content: "";
+        left: -1px;
+        bottom: -1px;
+        width: calc(100% + 2px);
+        height: 2px;
+        background: #0071a1;
+    }
+
+    .blogzee-social-share-control-popover:not('.blogzee-social-share-icon-popover') .components-popover__content > .blogzee-group-tab-panel > .components-tab-panel__tabs {
+        background-color: #4f94d4;
+        border-radius: 25px;
+        padding: 5px 0;
+        width: 118px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .blogzee-social-share-control-popover:not('.blogzee-social-share-icon-popover') .components-popover__content > .blogzee-group-tab-panel > .components-tab-panel__tabs button {
+        height: 21px;
+        border-radius: 25px;
+        color: #f5f5f5;
+        font-size: 9.5px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        padding: 3px 10px;
+    }
+
+    .blogzee-social-share-control-popover:not('.blogzee-social-share-icon-popover') .components-popover__content > .blogzee-group-tab-panel > .components-tab-panel__tabs button.active-tab,
+    .blogzee-social-share-control-popover:not('.blogzee-social-share-icon-popover') .components-popover__content > .blogzee-group-tab-panel > .components-tab-panel__tabs button.tab-active {
+        background-color: #fff;
+        color: #007cba; 
+    }
+
+    .control-panel-content #accordion-section-add_menu {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .blogzee-repeater-item.popupActive{
+        border-top: 2px solid #5fa1ff;
+    }
+
+    #customize-control-social_icons .blogzee-repeater-control-inner .blogzee-repeater-item.popupActive,
+    .customize-control-social-share .dropdown-wrapper ~ div.item,
+    .customize-control-social-share .customize-social-share-control .item.active {
+        border-top: 2px solid #5fa1ff;
+    }
+
+    #customize-control-social_share_repeater .blogzee-repeater-control-inner .blogzee-repeater-item .components-dropdown i {
+        font-size: 16px;
+        vertical-align: top;
+    }
+
+    /* social icon add button */
+    .customize-control-social-share .customize-social-share-control .add-to-list {
+        display: block;
+        height: 30px;
+    }
+
+    /* advertisement */
+    #customize-control-advertisement_repeater .blogzee-repeater-item .single-control input[type="checkbox"] {
+        width: 13px;
+        min-width: 13px;
+        height: 12px;
+        margin-bottom: 1px;
+        margin-right: 10px;
+    }
+
+    /* social share */
+    .customize-control-social-share .customize-social-share-control .items-wrap {
+        margin: 20px 0 15px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item {
+        position: relative;
+        border: 1px solid #d7d7d7;
+        margin-bottom: 12px;
+        padding: 0;
+        border-radius: 2px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-share-wrapper,
+    .blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item .item-heading-wrap {
+        padding: 8px 12px;
+        display: flex;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-share-wrapper > .current-icon-label:before,
+    .blogzee-repeater-control .blogzee-repeater-control-inner .blogzee-repeater-item .item-heading-wrap > .item-heading:before {
+        content: '\f58e';
+        font-weight: 900;
+        font-family: 'Font Awesome 5 Free';
+        padding-right: 8px;
+        font-size: 11px;
+        color: inherit;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-icon-dropdown-wrapper,
+    .blogzee-repeater-control-inner .item-heading-wrap .visibility-dropdown-wrapper {
+        display: flex;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-icon-dropdown-wrapper span,
+    .blogzee-repeater-control-inner .item-heading-wrap .visibility-dropdown-wrapper span {
+        padding: 0 9px;
+        border-left: 1px solid #d7d7d7;
+    }
+
+    .blogzee-repeater-control-inner .item-heading-wrap .visibility-dropdown-wrapper span {
+        cursor: pointer;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-icon-dropdown-wrapper span.dashicon,
+    .blogzee-repeater-control-inner .item-heading-wrap .visibility-dropdown-wrapper span:last-child {
+        padding-right: 0;
+        cursor: pointer;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-icon-dropdown-wrapper span.dashicon.dashicons-image-rotate {
+        padding: 0 9px;
+        border: none;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-icon-dropdown-wrapper span.dashicon.dashicons-image-rotate:before {
+        display: initial;
+        font-size: 11px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .social-icon-dropdown-wrapper span.dashicon:before {
+        font-size: 15px;
+        margin-top: 1px;
+        display: block;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .dropdown-wrapper {
+        border-top: 1px solid #d7d7d7;
+        padding: 15px;
+        text-align: right;
+    }
+
+    .customize-control-social-share .customize-social-share-control .dropdown-wrapper > .components-dropdown:first-child {
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        border: 1px dashed #d7d7d7;
+        margin-bottom: 11px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .dropdown-wrapper > .components-dropdown:first-child .color-indicator-wrapper {
+        width: 100%;
+        height: 39px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .dropdown-wrapper > .components-dropdown:first-child .current-icon {
+        display: inline-block;
+        font-size: 20px;
+        width: 100%;
+        padding: 12px 0px;
+        cursor: pointer;
+        border-radius: 2px;
+        transition: .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+
+    .customize-control-social-share .customize-social-share-control .dropdown-wrapper .color-field {
+        display: flex;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        align-items: center;
+        -webkit-align-items: center;
+        gap: 7px;
+        margin-top: 7px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .dropdown-wrapper .color-field .customize-control-title {
+        margin: 0;
+    }
+
+    .customize-control-social-share .customize-social-share-control .dropdown-wrapper .color-field .field-wrap {
+        display: flex;
+        gap: 7px;
+    }
+
+    /* trash icon */
+    .customize-control-social-share .customize-social-share-control .item .remove-from-list {
+        background-color: #ff2d2d;
+        color: #fff;
+        border-radius: 2px;
+        vertical-align: middle;
+        transition: .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        padding: 0 9px;
+        align-items: center;
+        height: 28px;
+        margin: 0 auto;
+        margin-top: 11px;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        padding-bottom: 2px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .remove-from-list:before {
+        content: '\f2ed';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 10px;
+        margin-right: 7px;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .remove-from-list:hover {
+        background-color: #e12323;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .remove-from-list:focus {
+        box-shadow: none;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .remove-from-list .dashicon {
+        padding: 0;
+        width: initial;
+        height: initial;
+    }
+
+    .customize-control-social-share .customize-social-share-control .item .remove-from-list .dashicon:before {
+        font-size: 11px;
+    }

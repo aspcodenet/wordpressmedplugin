@@ -1,0 +1,155 @@
+/* Styles for admin notices */
+body.wp-admin .blogzee-admin-notice {
+    padding: 24px 20px;
+}
+
+body.wp-admin .blogzee-admin-notice.notice {
+    padding-right: 20px;
+    border-radius: 6px;
+}
+
+.blogzee-admin-notice figure {
+    margin: 0;
+}
+
+.blogzee-admin-notice .admin-notice-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blogzee-admin-notice .notice-preview {
+    flex: 0 1 16%;
+}
+
+.blogzee-admin-notice .notice-content {
+    flex: 0 1 80%;
+    padding: 20px;
+}
+
+.blogzee-admin-notice .notice-preview img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0px #3858F6;
+}
+
+.blogzee-admin-notice .notice-header {
+    padding: 10px 0;
+    margin-bottom: 2px;
+}
+
+.blogzee-admin-notice .notice-header .notice-title {
+    background: #545454;
+    font-size: 16px;
+    position: absolute;
+    text-transform: capitalize;
+    top: -9px;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-weight: 400;
+    border-radius: 0 0 2px 2px;
+}
+
+.blogzee-admin-notice .notice-description {
+    margin: 0;     
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+.blogzee-admin-notice .notice-actions {
+    margin-top: 20px;
+    padding-left: 4px;
+}
+
+.blogzee-admin-notice .notice-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.blogzee-admin-notice .notice-list .list-item {
+    flex: 0 1 22%;
+    position: relative;
+    padding: 2px 12px;
+    font-size: 12px;
+}
+
+.blogzee-admin-notice .notice-list .list-item:before {
+    content: "";
+    background: #3858F6;
+    padding: 2px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    border-radius: 10px;
+}
+
+.blogzee-admin-notice .notice-actions .action-button {
+    cursor: pointer;
+    background: #3858F6;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 10px 13px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    display: inline-flex;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 6px;
+    align-items: center;
+}
+
+.blogzee-admin-notice .notice-actions .action-button:hover {
+    transform: translateY(-2px);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.blogzee-admin-notice .notice-actions .action-button.action-button-secondary {
+    color: #000000;
+    background: #f3f3f3;
+}
+
+.blogzee-admin-notice .notice-actions .action-button.action-button-reject {
+    color: #ff0000;
+    background: #f3f3f3;
+}
+
+.blogzee-admin-notice .notice-actions .action-button span.dashicons {
+    margin-right: 4px;
+}
+
+.blogzee-admin-notice .notice-actions .action-button.copiable {
+    cursor: copy;
+    background: #f3f3f3;
+    color: #000000;
+    border: 1px dashed #000000;
+}
+
+.blogzee-admin-notice .notice-actions .action-button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.blogzee-admin-notice .alert-dismiss {
+    position: absolute;
+    padding: 0;
+    right: 6px;
+    bottom: 6px;
+    font-size: 12px;
+    font-style: italic;
+    border: none;
+    background: none;
+    color: #ff0000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blogzee-admin-notice .notice-dismiss {
+    padding: 2px;
+}

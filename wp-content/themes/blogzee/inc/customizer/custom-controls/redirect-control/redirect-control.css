@@ -1,0 +1,19 @@
+.customize-control-redirect-link .link-item {
+    display: flex;
+    justify-content: space-between;
+    color: #1d2c33;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: 1px dashed #b4b9be;
+    background: transparent;
+    text-align: center;
+    font-size: 12px;
+}
+
+.customize-control-redirect-link a.link-item:hover {
+    background: #f7f7f7;
+}
+
+.customize-control-redirect-link .link-item span {
+    color: #718096;
+}
