@@ -1,0 +1,26 @@
+[ {
+  "name": "Elementor",
+  "slug": "elementor",
+  "required": false,
+  "force_activation": false
+}, {
+  "name": "Kirki Customizer Framework",
+  "slug": "kirki",
+  "required": false,
+  "force_activation": false
+},{
+  "name": "ShopLentor",
+  "slug": "woolentor-addons",
+  "required": false,
+  "force_activation": false
+},{
+  "name": "WooCommerce",
+  "slug": "woocommerce",
+  "required": false,
+  "force_activation": false
+},{
+  "name": "YITH WooCommerce Wishlist",
+  "slug": "yith-woocommerce-wishlist",
+  "required": false,
+  "force_activation": false
+}]

@@ -1,0 +1,36 @@
+.control-section-sports-agency h3.accordion-section-title {
+  line-height: 30px;
+}
+#customize-theme-controls .control-panel-themes>.accordion-section-title, 
+#customize-theme-controls .control-panel-themes>.accordion-section-title:hover{
+  margin: 0;
+}
+.control-section-sports-agency h3.accordion-section-title a{
+  float: right;
+}
+#accordion-section-sports_agency_upgrade_pro h3 a{
+  background:#f89300 ;
+  border-color: #f89300;
+  outline-color:#f89300 !important;
+}
+#accordion-section-sports_agency_upgrade_pro h3 {
+  color: #50575e !important;
+  background-color: #fff !important;
+}
+#accordion-section-sports_agency_upgrade_pro h3 a:hover{
+  background: #dc8200;
+  border-color: #dc8200;
+  outline-color:#f89300 !important;
+}
+input#_customize-input-logo_size{
+  width: 100%;
+}
+#customize-controls .customize-pane-parent{
+  overflow-x: hidden;
+}
+#customize-theme-controls .accordion-section-title:has(a):after{
+  display: none !important;
+}
+.accordion-section-title button.accordion-trigger{
+  height: auto !important;
+}

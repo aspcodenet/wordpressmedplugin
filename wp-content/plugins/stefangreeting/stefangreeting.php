@@ -35,7 +35,7 @@ class StefanGreeting{
     {
         add_options_page(
             'Hälsningsinställningar',
-            'Hälsningsinställningar',
+            'Stefans greetings settings',
             'manage_options',
             'stefangreeting-settings',
             array($this,'settings_page_html')
@@ -131,7 +131,7 @@ class StefanGreeting{
                 // Visa inställningsavsnitten och fälten.
                 do_settings_sections('stefangreeting-settings');
                 // Visa knappen för att spara.
-                submit_button('Spara inställningar');
+                submit_button('Spara NU ');
                 ?>
             </form>
         </div>

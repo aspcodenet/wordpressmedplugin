@@ -1,0 +1,361 @@
+/*About theme*/
+.appearance_page_sports_agency_about{
+    background: #f0f0f1;
+}
+.notice h1{
+    margin-bottom: 0px !important;
+}
+.lite-theme-inner hr{
+    border-top: 1px solid #dcdcde;
+    border-bottom: 1px solid #f6f7f7;
+    margin: 15px 0 0px 0;
+}
+.top-head{
+    background: #fff;
+    padding: 20px 20px 40px 20px;
+}
+.top-title{
+    float: left;
+}
+.top-head h2 {
+    color: #1d2327;
+    font-size: 24px;
+    margin: 0px;
+    font-weight: bold;  
+}
+.top-right {
+    float: right;
+}
+span.version {
+    padding: 5px;
+    background: #4A5568;
+    color: white;
+    font-size: 13px;
+}
+
+.inner-cont {
+    padding-top: 20px;
+    margin: 0px 20px 0 5px;
+}
+.tab-sec{
+    width: 55%;
+    float: left;
+}
+
+a.get-started-button, .iner-box-sidebar a, td.update-link, .info-link a, .col-left-pro a, .tab button,.coupon-btn{
+    padding: 2px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    background: #005ab3;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    line-height: 2.15384615;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.tab button{
+    padding: 3px 30px !important; 
+    background: transparent;
+    color: #1e1e1e;
+    border-radius: 0;
+    font-weight: normal;
+}
+button.tablinks:focus {
+    outline: none;
+}
+button.tablinks.active {
+    background: white;
+    border: 1px solid #e2e4e7;
+    border-bottom-color: transparent;
+}
+.tabcontent {
+    display: none;
+}
+.open {
+    display: block ;
+}
+
+.tab-outer-box {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    margin-top: -1px;
+    padding: 10px 30px;
+}
+#changelog_cont .tab-outer-box{
+    padding: 10px 20px;
+}
+#changelog_cont textarea{
+    border: none;
+    border-radius: 0px;
+    padding: 0px 0px;
+}
+.lite-theme-inner h3 {
+    font-size: 16px;
+    margin: 15px 0 0 0;
+}
+.first-row {
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    background: #f5f5f5;
+}
+.row-box {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+.row-box1 {
+    float: left;
+    width: 52%;
+}
+.row-box span {
+    margin-right: 8px;
+    color: #000;
+}
+.row-box a {
+    text-decoration: none;
+}
+
+.inner-side-content{
+    float: right;
+    width: 43%;
+}
+
+.iner-sidebar-pro-btn {
+    margin-bottom: 20px;
+}
+.iner-sidebar-pro-btn span {
+    margin-right: 8px;
+}
+.inner-side-content img{
+    width: 100%;
+}
+.premium-btn a, .demo-btn a, .doc-btn a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+.premium-btn a{
+    background: #0029ff;
+}
+.demo-btn a{
+    background: #f9bd0e;
+}
+.doc-btn a{
+    background: #ff2c6f;
+}
+
+.premium-features ul li{
+    margin-bottom: 10px;
+}
+.premium-features ul li:before {
+    content: "\f192";
+    font-family: "font awesome 5 free";
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    color: #004a94;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+.premium-features h3{
+    text-transform: capitalize;
+}
+.inner-side-content h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 15px 0 10px 0;
+
+}
+.tab-sec p{
+    font-size: 15px;
+}
+.inner-side-content h2{
+    padding: 10px 15px;
+    background: white;
+    border: 1px solid #e2e4e7;
+    border-bottom-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1e1e1e;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 15px;
+}
+/* --------coupon box--------- */
+.premium-coupon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.premium-features{
+    margin: 10px;
+}
+.coupon-box{
+    height: 60%;
+    padding: 25px 35px;
+    text-align: center;
+    background: #f0f0f1;
+    border: 1px solid #dcdcde;
+}
+.coupon-btn{
+    margin: 15px 10px;
+    border: 1px solid #fff;
+}
+.coupon-btn:hover{
+    border: 1px solid #005ab3;
+    background: #f0f0f1;
+    color: #0a4b78;
+}
+.coupon-container{
+    border: 3px dotted #dcdcde;
+    background: #fff;
+    padding: 15px;
+}
+.coupon-container h3{
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* -------- Plugin Activation Css --------- */
+.sports-agency-recommended-plugins .sports-agency-action-list{
+    max-width: 760px;
+    color: #3c434a;
+}
+.sports-agency-recommended-plugins .action-link,.sports-agency-recommended-plugins a.button{
+    padding: 2px 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background: #005ab3;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    line-height: 2.15384615;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.sports-agency-recommended-plugins a.button:hover{
+    border: 1px solid #005ab3;
+}
+.sports-agency-recommended-plugins .action-link span{
+    position: relative;
+    top: 5px;
+}
+.sports-agency-recommended-plugins {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    margin-top: -1px;
+    padding: 10px 30px;
+}
+.sports-agency-recommended-plugins .action-desc{
+    font-size: 15px;
+    margin: 10px 0;
+    line-height: 21px;
+}
+/* Changelog */
+.changelog .block {
+    padding: 10px 0;
+}
+.changelog .block span {
+    display: block;
+    padding: 2px;
+    font-size: 15px;
+}
+.changelog span.heading {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.inner-cont .tab{
+    display: flex;
+    justify-content: start;
+}
+/* Getstarted notice  */
+.wpele-activation-notice{
+	padding: 25px 20px;
+}
+.wpele-activation-notice .notice-body {
+	display: flex;
+}
+.wpele-activation-notice .notice-icon {
+	padding-right: 25px;
+}
+.wpele-activation-notice .notice-icon img{
+	max-width: 55px;
+}
+.wpele-activation-notice .notice-content{
+	width: 100%;
+}
+.wpele-activation-notice .notice-content h2{
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.wpele-activation-notice .notice-content > p{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.wpele-activation-notice .notice-content > p:last-child {
+	margin-bottom: 0;
+}
+/* Getstarted notice  */
+.wpele-activation-notice{
+	padding: 25px 20px;
+}
+.wpele-activation-notice .notice-body {
+	display: flex;
+}
+.wpele-activation-notice .notice-icon {
+	padding-right: 25px;
+}
+.wpele-activation-notice .notice-content{
+	width: 100%;
+}
+.wpele-activation-notice .notice-content > p:last-child {
+	margin-bottom: 0;
+}
+.wpele-activation-notice .notice-content h2{
+	font-weight: 700;
+    color: #263238;
+    font-size: 32px;
+    line-height: 130%;
+    margin: 15px 0 12px 0px;
+}
+.wpele-activation-notice .notice-body a.button-notice{
+    background: #135E96;
+    padding: 8px 23px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 0px;
+    margin-right: 10px;
+}
+.wpele-activation-notice .notice-content > p{
+    width: 100%;
+    color: #546e7a;
+    font-size: 18px;
+    line-height: 144%;
+    max-width: 600px;
+    margin-top: 0;
+	margin-bottom: 20px;
+}
+.wpele-activation-notice .notice-icon img{
+	max-width: 160px;
+}
