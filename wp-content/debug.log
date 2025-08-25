@@ -214,3 +214,28 @@
 [21-Aug-2025 07:55:59 UTC] Registering shortcode
 [21-Aug-2025 07:56:59 UTC] Registering shortcode
 [21-Aug-2025 07:57:59 UTC] Registering shortcode
+[25-Aug-2025 11:37:41 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class HockeyPlayer_CPT does not have a method "register_hockeyplayer_cpt" in C:\Users\stefa\source\wordpressmedplugin\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\stefa\source\wordpressmedplugin\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\stefa\source\wordpressmedplugin\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\stefa\source\wordpressmedplugin\wp-settings.php(727): do_action('init')
+#3 C:\Users\stefa\source\wordpressmedplugin\wp-config.php(104): require_once('C:\\Users\\stefa\\...')
+#4 C:\Users\stefa\source\wordpressmedplugin\wp-load.php(50): require_once('C:\\Users\\stefa\\...')
+#5 C:\Users\stefa\source\wordpressmedplugin\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\stefa\\...')
+#6 {main}
+  thrown in C:\Users\stefa\source\wordpressmedplugin\wp-includes\class-wp-hook.php on line 324
+[25-Aug-2025 11:37:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class HockeyPlayer_CPT does not have a method "register_hockeyplayer_cpt" in C:\Users\stefa\source\wordpressmedplugin\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\stefa\source\wordpressmedplugin\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\stefa\source\wordpressmedplugin\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\stefa\source\wordpressmedplugin\wp-settings.php(727): do_action('init')
+#3 C:\Users\stefa\source\wordpressmedplugin\wp-config.php(104): require_once('C:\\Users\\stefa\\...')
+#4 C:\Users\stefa\source\wordpressmedplugin\wp-load.php(50): require_once('C:\\Users\\stefa\\...')
+#5 C:\Users\stefa\source\wordpressmedplugin\wp-admin\admin.php(35): require_once('C:\\Users\\stefa\\...')
+#6 C:\Users\stefa\source\wordpressmedplugin\wp-admin\edit.php(10): require_once('C:\\Users\\stefa\\...')
+#7 {main}
+  thrown in C:\Users\stefa\source\wordpressmedplugin\wp-includes\class-wp-hook.php on line 324
+[25-Aug-2025 11:48:43 UTC] Automatic updates starting...
+[25-Aug-2025 11:48:43 UTC]   Automatic plugin updates starting...
+[25-Aug-2025 11:48:43 UTC]   Automatic plugin updates complete.
+[25-Aug-2025 11:48:43 UTC] Automatic updates complete.
